@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 135, 255);
+}
+.card {
+    height: 500px;
+    width: 400px;
+    border-radius: 14px;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgba(250, 250, 248, 0.904);
+}
+
+.card img {
+    height: 60%;
+    width: 100%;
+    object-fit:  cover;
+    object-position: center;
+}
+
+.card h1 {
+
+    margin: 0 10px;
+   text-align: center;
+   font: 900;
+   font-size: 2rem;
+  
+}
+
+.card h5{
+    margin-top: 20px;
+    text-align: center;
+    font: 900;
+    font-size: 20px;
+    color: red;
+}
+
+.btn {
+   
+   margin-left: 12%;
+   margin-top: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.card button {
+    cursor: pointer;
+    width: 40%;
+    font-size: 1vw;
+    margin-right:10%;
+    background-color: aqua;
+    color: rgb(254, 253, 253);
+    text-shadow: rgb(249, 246, 246) 4px 4px 34px;
+    font-weight: 900;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+.card .rem {
+    background-color: rgb(202, 202, 202);
+    color: black;
+}
